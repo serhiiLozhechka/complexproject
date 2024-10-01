@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include "convert.h"
+
+int main() {
+    char input[100];
+    
+    printf("Enter text: ");
+    fgets(input, 100, stdin);
+    
+    to_upper(input);
+    printf("Uppercase: %s", input);
+    
+    return 0;
+}

@@ -54,9 +54,9 @@ This is a calculator that will calculate the sum, difference, product and fracti
    ./bin/uper
 
 ## Clean the project
-5. Unstall the binary and headers
+5. Uninstall the binary and headers
    ```bash
-   sudo make unstall
+   sudo make uninstall
 6. Clean the project
    ```bash
    sudo make clean-all
